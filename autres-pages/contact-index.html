@@ -4,14 +4,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>editeurs de code</title>
+        <title>Contact</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <link rel="stylesheet" href="./article-editeur-code-styles.css">
         <link rel="stylesheet" href="./accueil-styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com"> 
     </head>
-    <body>
-        <header id="haut">
+    <body id="contact-body">
+        <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <h4>CA Compagny</h4>
@@ -22,10 +24,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="./accueil-index.html">Accueil</a>
+                                <a class="nav-link" href="../accueil-index.html">Accueil</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./metier-index.html">Développeur Back-End</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./article-editeurs-index.html">Documentation du Web</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./approche-index.html">Notre Approche</a>
@@ -36,122 +41,61 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./formateur-index.html">Notre Formateur</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contact-index.html">Contact</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            </header>
-        <div class="titre-h1">
-            <h1>les éditeurs de code</h1>
+        </header>
+            <img class="header-contact" src="./images/contact-2794680_640.png" alt="">
+        </header>
+        <div id="contact-content" class="row">
+            <!-- telephone -->
+            <div id="tel-icon" class="col-12 col-md-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+            </div>
+              <!-- mail -->
+            <div id="email-icon" class="col-12 col-md-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                </svg>
+            </div>
+            <div id="numero-tel" class="col-12 col-md-6"><p>numéro : +33705897744</p></div>
+            <div id="ad-email" class="col-12 col-md-6"><p>mail: blade-symphony@athena.com</p></div>
+            <div id="maps-g" class="col-12 col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11044.437612948708!2d5.2002043!3d46.2082786!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa21cda6ac9796fea!2sOnlineformapro!5e0!3m2!1sfr!2sfr!4v1630617162356!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="ad-maps" class="col-12 col-md-6"><p>OnlineFormaPro <br> 244B Rue du Point du Jour <br> 01000 Saint-Denis-lès-Bourg</p></div>
         </div>
-        
-        <div class="def">
-            <h2>C'est quoi un éditeur de code ?</h2>
-            <p>Un éditeur de code est un éditeur de texte, tout simplement.
-                Dans notre cas, on utilise ces outils pour construire un programme, un site internet, des jeux ou des applications dans différents langages informatiques :
-                <ul>
-                    <li>html</li>
-                    <li>css</li>
-                    <li>javascript</li>
-                    <li>sql</li>
-                    <li>...</li>
-                </ul>
-            </p>
-        </div>
-        <section>
-            <h2 class="editeur-h2">Les éditeurs de code les plus connus et gratuits</h2>
-            <div class="titre-atom">
-                <h3>Atom</h3>
-            </div>
-            <div id="part-atom" class="row">
-                <div id="img-atom" class="col-12 col-md-6"><img src="./images/Atom-editor.png" alt=""></div>
-                <div id="text-atom" class="col-12 col-md-6">
-                    <div id="texte-atom">
-                        <h4 class="titre-points-forts">points forts :</h4>
-                        <div id="avantages-atom">
-                                <p>Fluide et facile à utiliser</p>
-                                <p>Convient aux développeurs les plus expérimentés</p>
-                                <p>Grand nombre de fonctionnalitées intéressantes</p>
-                                <p>Personnalisation facile</p>
-                                <p>Existance d'une page de documentation : <a href="https://flight-manual.atom.io/" target="_blank">Manuel Atom</a></p>
-                        </div>
-                        <h4>points faibles :</h4>
-                        <div id="inconvenients-atom">
-                            <p>installation de toutes les extentions individuellement</p>
-                            <p>lenteur possible après plusieurs heures d'utilisation</p>
-                        </div>
+        <section id="form-mail">
+            <form>
+                <div class="row mb-3">
+                    <label id="email-form" for="inputEmail3" class="col-sm-2 col-form-label">Nom</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
                     </div>
                 </div>
-            </div>
-            <a class="lien-image-atom" href="https://fr.wikipedia.org/wiki/Atom_(%C3%A9diteur_de_texte)" target="_blank">Source de l'image : Atom</a>
-
-            <div class="titre-vsc">
-                <h3>Visual Studio Code</h3>
-            </div>
-            <div id="part-vsc" class="row">
-                <div id="img-vsc" class="col-12 col-md-6"><img src="./images/vsc.gif" alt=""></div>
-                <div id="text-vsc" class="col-12 col-md-6">
-                    <div id="texte-vsc">
-                        <h4 class="titre-points-forts">points forts :</h4>
-                        <div id="avantages-vsc">
-                            <p>Fiable</p>
-                            <p>Facile à utiliser</p>
-                            <p>Fonctionnalités puissantes</p>
-                            <p>Interface agréable</p>
-                            <p>Large choix d'extentions</p>
-                        </div>
-                        <h4>point faible :</h4>
-                        <div class="inconvenients-vsc">
-                            <p>Gourmand en ressources, choisir les extentions avec soins</p>
-                        </div>
+                <div class="row mb-3">
+                    <label id="email-form" for="inputEmail3" class="col-sm-2 col-form-label">Prénom</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
                     </div>
                 </div>
-            </div>
-                <a class="lien-image-vsc" href="https://code.visualstudio.com/updates/v1_37" target="_blank">Source de l'image : VSCode</a>
-                </div>
-
-            <div class="titre-notepad">
-                <h3>NotePad ++</h3>
-            </div>
-            <div id="part-notepad" class="row">
-                <div id="img-notepad" class="col-12 col-md-6"><img src="./images/notepad-plus-plus.png" alt=""></div>
-                <div id="text-notepad" class="col-12 col-md-6">
-                    <div class="texte-notepad">
-                        <div id="titre-notepad-h4">
-                            <h4>points forts :</h4>
-                        </div>
-                        <div id="avantages-notepad">
-                            <p>simple d'utilisation</p>
-                            <p>grand nombre de fonctionnalités</p>
-                            <p>outlis léger</p>
-                            <p>supporte : HTML, CSS, PHP et Javascript</p>
-                        </div>
-                        <h4>point faible :</h4>
-                        <div id="inconvenients-notepad">
-                            <p>design de l'interface "old school"</p>
-                        </div>
+                <div class="row mb-3">
+                    <label id="email-form" for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
                     </div>
                 </div>
-            </div>
-            <a href="https://softmany.com/fr/notepad-windows/">Source de l'image : NotePad ++</a>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Message</label>
+                    <div class="col-sm-10">
+                        <input type="mail" class="form-control" id="Mail">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
         </section>
-
-        <p class="sources">Sources :</p>
-        <div class="sources-liens-articles">
-            <a href="https://kinsta.com/fr/blog/editeurs-html-gratuits/#les-meilleurs-diteurs-de-texte-html-gratuits" target="_blank">https://kinsta.com/fr/blog/editeurs-html-gratuits/#les-meilleurs-diteurs-de-texte-html-gratuits</a>
-            <br>
-            <a href="https://pixelsandbytes.fr/5-meilleurs-editeurs-code/" target="_blank">https://pixelsandbytes.fr/5-meilleurs-editeurs-code/</a>
-            <br>
-            <a href="https://www.codeur.com/blog/editeurs-texte-gratuits-developpement/" target="_blank">https://www.codeur.com/blog/editeurs-texte-gratuits-developpement/</a>
-            <br>
-            <a href="https://kinsta.com/fr/blog/meilleurs-editeurs-de-texte/" target="_blank">https://kinsta.com/fr/blog/meilleurs-editeurs-de-texte/</a>
-            <br>
-            <a href="https://blogpascher.com/blog-astuces/notepad-critique-dun-editeur-de-code-pour-wordpress">https://blogpascher.com/blog-astuces/notepad-critique-dun-editeur-de-code-pour-wordpress</a>
-        </div>
-        <a class="fleche" href="#haut"><img src="./images/app-1646212_640.png" alt=""></a>
         <footer class="footer-content">
             <h3>Ca Compagny</h3>
             <p>Looking for fun !</p>
