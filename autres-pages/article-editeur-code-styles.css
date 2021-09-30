@@ -1,0 +1,254 @@
+
+body{
+    margin: 0;
+    padding: 10px;
+}
+/*entre header et footer*/
+.titre-h1{
+    display: flex;
+    justify-content: center;
+}
+.def{
+    margin-top: 30px;
+}
+.titre-vsc{
+    margin-top: 30px;
+}
+.titre-atom{
+    margin-top: 30px;
+}
+#part-atom {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#img-atom{
+    padding-left: 0;
+}
+#part-atom img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+#texte-atom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+#text-atom{
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.liens-des-imgs{
+    margin-bottom: 30px;
+}
+#text-atom h4 {
+    display: flex;
+    justify-content: center;
+}
+#texte-atom{
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    border-radius: 10%;
+}
+#avantages-atom p{
+    display: flex;
+    justify-content: center;
+}
+#inconvenients-atom p{
+    display: flex;
+    justify-content: center;
+}
+#part-vsc{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#part-vsc img{
+    border-radius: 30px;
+}
+#text-vsc{
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#texte-vsc{
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    border-radius: 10%;
+    height: min-content;
+}
+#texte-vsc h4{
+    display: flex;
+    justify-content: center;
+}
+#texte-vsc .titre-points-forts{
+    display: flex;
+    justify-content: center;
+}
+#avantages-vsc p{
+    display: flex;
+    justify-content: center;
+}
+.inconvenients-vsc p{
+    display: flex;
+    justify-content: center;
+}
+#part-vsc img{
+    width: 100%;
+    height: auto;
+    padding-right: 12px;
+}
+#img-vsc{
+    padding-left: 0;
+    padding-right: 0;
+}
+#part-notepad{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#img-notepad{
+    padding-left: 0;
+}
+#part-notepad img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+#titre-notepad-h4{
+    display: flex;
+    justify-content: center;
+}
+#avantages-notepad p{
+    display: flex;
+    justify-content: center;
+}
+#text-notepad{
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+}
+#text-notepad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texte-notepad{
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    border-radius: 10%;
+    width: 400px;
+    height: min-content;
+}
+.texte-notepad h4{
+    display: flex;
+    justify-content: center;
+}
+#inconvenients-notepad{
+    display: flex;
+    justify-content: center;
+}
+
+.sources-liens-articles{
+    margin-left: 20px;
+}
+/* fleche ancre revenir a la base en haut */
+.fleche{
+    display: flex;
+    justify-content: flex-end;
+}
+.fleche img{
+    width: 50px;
+    height: auto;
+}
+/* footer */
+footer{
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+}
+.footer-content h3{
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: black;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    width: 100%;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    padding-right: 30px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials svg{
+    color: white;
+    font-size: 1.1rem;
+}
+.socials li svg :hover{
+    color: black;
+}
+.titre-h1 h1{
+    text-shadow: 0 0 50px #3cba92,
+                 0 0 50px #3cba92,
+                 0 0 50px #3cba92,
+                 0 0 50px #3cba92,
+                 0 0 50px #3cba92;
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+@media(max-width:767px){
+    .def{
+        margin-top: 30px;
+    }
+    .titre-vsc{
+        margin-top: 30px;
+    }
+    #texte-atom{
+        margin-top: 20px;
+    }
+    #texte-vsc{
+        margin-top: 20px;
+    }
+    .texte-notepad{
+        margin-top: 20px;
+    }
+}

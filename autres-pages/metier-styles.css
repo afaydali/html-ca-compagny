@@ -1,0 +1,117 @@
+body{
+    background-size: cover;
+    margin: 0 auto;
+    font-family: "Abril Fatface",cursive;
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+/* header */
+.container-fluid h4{
+    margin-left: 100px;
+}
+.navbar img{
+    height: 100px;
+    width: auto;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.logo{
+    margin-right: 200px;
+}
+/* fin du header */
+#row1{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    margin: 50px;
+}
+#salaire-dev{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#img-dev img{
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+}
+#titre-dev{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+#qualitees-dev{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+#qualitees-dev #bulle{
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+#row3{
+    margin: 50px;
+}
+#youtube-dev{
+    padding-left: 0;
+    padding-right: 0;
+}
+#youtube-dev iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#son-cursus{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+#bulle-cursus{
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fleche{
+    display: flex;
+    justify-content: flex-end;
+}
+.fleche img{
+    width: 50px;
+    height: auto;
+}
+
+/*#salaire-dev:hover,#qualitees-dev #bulle:hover,#son-cursus:hover{
+    animation: dev 4s ease-in-out infinite;
+}
+@keyframes dev {
+    0%{
+        transform: rotate(0deg);
+        border: 1px solid black;
+    }
+    50%{
+        border: 20px solid black;
+    }
+    100%{
+        transform: rotate(360deg);
+        border: 1px solid black;
+    }
+}*/
