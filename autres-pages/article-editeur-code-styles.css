@@ -1,12 +1,21 @@
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 /*entre header et footer*/
 .titre-h1{
     display: flex;
     justify-content: center;
+}
+.def{
+    margin-top: 30px;
+}
+.titre-vsc{
+    margin-top: 30px;
+}
+.titre-atom{
+    margin-top: 30px;
 }
 #part-atom {
     display: flex;
@@ -22,13 +31,25 @@ body{
 #part-atom img{
     width: 100%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 30px;
+}
+#texte-atom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
 }
 #text-atom{
     padding-left: 0;
     padding-right: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.liens-des-imgs{
+    margin-bottom: 30px;
 }
 #text-atom h4 {
     display: flex;
@@ -37,7 +58,6 @@ body{
 #texte-atom{
     background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
     border-radius: 10%;
-    margin-bottom: 150px;
 }
 #avantages-atom p{
     display: flex;
@@ -54,18 +74,19 @@ body{
     margin-right: 0;
 }
 #part-vsc img{
-    border-radius: 10%;
+    border-radius: 30px;
 }
 #text-vsc{
     padding-right: 0;
     padding-left: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #texte-vsc{
     background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
     border-radius: 10%;
-    margin-bottom: 150px;
+    height: min-content;
 }
 #texte-vsc h4{
     display: flex;
@@ -104,7 +125,7 @@ body{
 #part-notepad img{
     width: 100%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 30px;
 }
 #titre-notepad-h4{
     display: flex;
@@ -120,11 +141,16 @@ body{
     display: flex;
     justify-content: center;
 }
+#text-notepad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .texte-notepad{
     background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
     border-radius: 10%;
     width: 400px;
-    margin-bottom: 150px;
+    height: min-content;
 }
 .texte-notepad h4{
     display: flex;
@@ -207,5 +233,22 @@ footer{
     }
     100%{
         filter: hue-rotate(360deg);
+    }
+}
+@media(max-width:767px){
+    .def{
+        margin-top: 30px;
+    }
+    .titre-vsc{
+        margin-top: 30px;
+    }
+    #texte-atom{
+        margin-top: 20px;
+    }
+    #texte-vsc{
+        margin-top: 20px;
+    }
+    .texte-notepad{
+        margin-top: 20px;
     }
 }
